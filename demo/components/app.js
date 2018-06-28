@@ -1,4 +1,6 @@
 import React from  'react';
+
+import '../style/style.css'
 class App extends React.Component{
     constructor(props){
         super(props)
@@ -6,7 +8,9 @@ class App extends React.Component{
     render(){
         return(
             <div>
-                <h1>hello</h1>
+                <h1 className="tit">hello</h1>
+                <p>哈哈哈</p>
+                <img src={require("../img/bg1.jpg")}/>
             </div>
         )
 
