@@ -11,3 +11,37 @@ img{
     width:300px;
     height:200px;
 }
+
+header{
+    height:100px;
+    width:100%;
+    background:blue;
+    overflow:hidden;
+    padding:0 10px;
+}
+header p{
+    color:#fff;
+    font-size:20px;
+    margin-top:10px;
+}
+header input{
+    width:94%;
+    height:30px;
+    text-align:center;
+    outline: none;
+}
+header ul li{
+    font-size:14px;
+    color:#fff;
+    list-style:none;
+    float:left;
+    margin-right:6px;
+}
+banner img{
+    height:100px;
+    width:100%;
+}
+banner .img{
+    height:180px;
+    width:100%;
+}
