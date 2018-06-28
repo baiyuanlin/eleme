@@ -11,3 +11,82 @@ img{
     width:300px;
     height:200px;
 }
+.qiang{
+     background:#fff;
+     display: flex;
+     width:100%;
+     justify-content: space-around;
+}
+.qiang div{
+    background: #f8f8f8;
+    width:49%;
+    height:150px;
+    position: relative;
+}
+.qiang div img{
+     width:65%;
+     height:75px;
+     position: absolute;
+     right:0;
+     bottom:0;
+}
+.qiang dl{
+    margin:10px 0 0 10px;
+}
+.qiang dl dt{
+    color:red;
+    font-size:16px;
+    font-weight: 600;
+}
+.qiang dl dd{
+    font-size:12px;
+}
+.qiang div span{
+    color:red;
+}
+.ming{
+    margin-top:3px;
+    width:100%;
+    background:#fff;
+     display: flex;
+     height:120px;
+     justify-content: space-around;
+}
+.ming div {
+    text-align: center;
+}
+.ming div h3{
+    font-size:16px;
+    margin-top:5px;
+}
+.ming div p{
+    font-size:12px;
+    display:inline-block;
+    margin:0;
+    padding:0;
+    border:1px solid rgb(112, 112, 112);
+    color:rgb(112, 112, 112);
+}
+.ming div{
+    background: #f8f8f8;
+    width:32%;
+    height:120px;
+    position: relative;
+}
+.ming div img{
+    width:100%;
+    height:55px;
+    position: absolute;
+    bottom:0;
+    right:0;
+}
+.ling{
+    margin-top:3px;
+    background:#f8f8f8;
+    width:100%;
+    height:80px;
+}
+.ling img{
+    width:100%;
+    height:80px;
+}
